@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+div {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1.5em;
+    margin: 1em;
+    text-align: center;
+    width: 200px;
+    height: 290px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+input {
+    width: 80%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 60%;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#waterAmount {
+    width: 90%;
+}
+
+.calculate{
+    padding-bottom: 0;
+}
+
+.calculate__container{
+    row-gap: 4rem;
+}
+
+.calculate__content .section__titles{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.calculate__description{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.calculate___form{
+    display: grid;
+    row-gap: 1rem;
+}
+
+.calculate__box{
+    position: relative;
+    border: 2px solid (--first-color-light);
+}
+
+.calculate__input{
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 56px 20px 24px;
+    outline: none;
+    border: none;
+    color: var(--text-color);
+}
+
+.calculate__input::-webkit-outer-spin-button,
+.calculate__input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.calculate__input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.calculate__label{
+    position: absolute;
+    right: 1.5rem;
+    top: 1.2rem;
+    color: var(--title-color);
+}
+
+.calculate__form .button{
+    margin-top: 1.5rem;
+}
+
+.calculate__message{
+    position: absolute;
+    transform: translateY(1rem);
+}
+
+.color-red{
+    color: hsl(0, 80%, 64%);
+}
+
+.color-green{
+    color: var(--first-color);
+}
+
